@@ -27,14 +27,14 @@ public class School
     }
 
     // precondition: name is the name of an Elective in electiveList
-    // postcondition: returns if an elective with the given name is in electiveList
-    public boolean isElecitveOffered(String name) {
+    // post-condition: returns if an elective with the given name is in electiveList
+    public boolean isElectiveOffered(String name) {
         /* to be implemented in part (a) */
 
         return false; //remove this line
     }
 
-    // postcondition: All Students in studentList who have not been assign an elective are
+    // post-condition: All Students in studentList who have not been assign an elective are
     // assigned based on their choices (first choice, if full then second choice etc).
     // All Electives in electiveList have been updated appropriately as Students are assigned
     public void assignElectivesToStudents() {
@@ -42,14 +42,14 @@ public class School
 
     }
 
-    // postcondition: returns a list of those Students who have not been assigned an Elective
+    // post-condition: returns a list of those Students who have not been assigned an Elective
     public ArrayList<Student> studentsWithoutElectives() {
         /* to be implemented in part (c) */
 
         return null; //remove this line
     }
 
-    // postcondition: returns the number of students who have been assigned their first choice elective
+    // post-condition: returns the number of students who have been assigned their first choice elective
     public int firstChoicesAssigned() {
         /* to be implemented in part (d) */
 

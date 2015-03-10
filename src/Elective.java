@@ -26,7 +26,7 @@ public class Elective
         return classSize;
     }
 
-    // pre-condition: getClassSize() < getMaxClassSize () ; s is not null
+    // precondition: getClassSize() < getMaxClassSize () ; s is not null
     // post-condition: s has been added to this Elective; getClassSize () has been increased by 1
     public void addStudent(Student s) {
         if (classSize < students.length) {

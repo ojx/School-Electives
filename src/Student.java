@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 //do not change this class
 public class Student
 {
@@ -14,9 +12,9 @@ public class Student
 
     public Student(int i) {
         if (Math.random() < 0.5)
-            name = "Jane Doe " + i;
+            name = "Jane Doe #" + i;
         else
-            name = "Bob Doe" + i;
+            name = "Bob Doe #" + i;
         choices = new Elective[3];
     }
 
@@ -31,18 +29,18 @@ public class Student
 
 
     // precondition: 0 <= index < 3
-    // postcondition: returns the name of the given elective choice
+    // post-condition: returns the name of the given elective choice
     public String getChoice(int index) {
         return choices[index].getName();
     }
 
-    // postcondition: returns true if an Elective has been assigned to this Student
+    // post-condition: returns true if an Elective has been assigned to this Student
     public boolean hasElective () {
         return assigned != null;
     }
 
     // precondition: e is not null
-    // postcondition: e has been assigned to this Student;
+    // post-condition: e has been assigned to this Student;
     public void assignElective(Elective e) {
         assigned = e;
     }

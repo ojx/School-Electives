@@ -9,7 +9,7 @@ public class Main {
         school.addElective(new Elective("Astronomy", 12));
         school.addElective(new Elective("Ballroom Dance", 20));
         school.addElective(new Elective("Basketweaving", 15));
-        school.addElective(new Elective("Constitiutional Law", 10));
+        school.addElective(new Elective("Constitutional Law", 10));
         school.addElective(new Elective("Marine Biology", 10));
         school.addElective(new Elective("Programming", 30));
 
@@ -37,13 +37,13 @@ public class Main {
             school.getStudentList().get(i).addChoice(school.getElectiveList().get(choice3));
         }
 
-        if (school.isElecitveOffered("Ceramics")) {
+        if (school.isElectiveOffered("Ceramics")) {
             System.out.println("Ceramics is offered");
         } else {
             System.out.println("Ceramics is NOT offered");
         }
 
-        if (school.isElecitveOffered("Marine Biology")) {
+        if (school.isElectiveOffered("Marine Biology")) {
             System.out.println("Marine Biology is offered");
         } else {
             System.out.println("Marine Biology is NOT offered");

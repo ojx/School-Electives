@@ -86,4 +86,3 @@ Complete the `studentsWithoutElectives` method, this should return an `ArrayList
 ###Part D
 
 Complete the `firstChoicesAssigned` method, this should return the number of students who have been assigned their first choice.
-
